@@ -1,0 +1,22 @@
+export default class Config {
+  static API_KEY = '' // Movie DB API Key
+  static BASE_URL = 'https://api.themoviedb.org/3/'
+  static IMAGE_URL = 'http://image.tmdb.org/t/p/'
+  static FIREBASE_API_KEY = '' // Firebase API Key
+  static FIREBASE_AUTH_DOMAIN = '' // Firebase Auth Domain
+  static FIREBASE_DATABASE_URL = '' // Firebase Database URL
+  static FIREBASE_PROJECT_ID = '' // Firebase Project ID
+  static FIREBASE_STORAGE_BUCKET = '' // Firebase Storage Bucket
+  static FIREBASE_MESSAGE_SENDER_ID = '' // Firebase Message Sender ID
+  static IMDB_API = 'http://www.omdbapi.com/?apikey=IMDB_API_KEY' // IMDB API URL with API Key
+  static ALGOLIA_APP_ID = '' // Aloglia App ID
+  static ALGOLIA_API_KEY = '' // Algolia API Key
+  static ALGOLIA_ADMIN_KEY = '' // Algolia Admin Key
+  static ALGOLIA_MOVIES_INDEX_NAME = 'movies'
+  static ALGOLIA_USERS_INDEX_NAME = 'users'
+  static EXPO_PUSH_SERVER = 'https://exp.host/--/api/v2/push/send'
+  static CINEMAS_API_BASE_URL = 'https://api-gate2.movieglu.com/'
+  static CINEMAS_API_USERNAME = '' // Movie Glu Username
+  static CINEMAS_API_X_KEY = '' // Movie Glu API X Key
+  static CINEMAS_API_AUTH = '' // Movie Glu Api Auth Key
+}
